@@ -46,8 +46,10 @@ function decToAsked(decNum,baseModele){
 
 //style
 function fillOfCharacters(length,baseModele){
-    const numbersArray = Array.from({ length: baseModele }, (_, i) => i + 1);//line made by gpt
+    const numbersArray = Array.from({ length: baseModele }, (_, i) => i);
+    // const numbersArray = Array.from({ length: baseModele }, (_, i) => i + 1);//line made by gpt
     const numbersString = numbersArray.join(' ');
+    console.log(numbersArray)
     let bgCharacters = ''
     for(let i=0;i<length;i++){
         // bgCharacters = bgCharacters +  characters.charAt(Math.round(Math.random()*characters.length));
