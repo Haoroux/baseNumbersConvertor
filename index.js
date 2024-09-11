@@ -27,7 +27,7 @@ function decToAsked(decNum,baseModele){
     while (decNum != 0){
         quotient = Math.floor(decNum/baseModele);
         remainder = decNum % baseModele;
-        if (remainder > 0){
+        if (remainder != 0){
             convertedNum.unshift(remainder);
             console.log("add rem");
             decNum = quotient;
