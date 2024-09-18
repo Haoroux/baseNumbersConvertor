@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    align-content: center;
+}
+
+#card{
+    align-content: center;
+    align-items: center;
+    width: 40%;
+    height: 20%;
+    background-color: blue;
+    margin: 0 auto;
+}
